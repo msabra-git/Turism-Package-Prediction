@@ -1,1 +1,1 @@
-Turism-Package-Prediction2
+Turism-Package-Prediction
