@@ -7,6 +7,7 @@ import xgboost as xgb
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import classification_report
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.model_selection import train_test_split, GridSearchCV
 # for model serialization and experiment tracking
 import joblib
 import mlflow
