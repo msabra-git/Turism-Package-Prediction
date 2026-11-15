@@ -1,10 +1,7 @@
 name: Tourism Project Pipeline
 
 on:
-  push:
-    branches:
-      - main  # Automatically triggers on push to the main branch
-  workflow_dispatch:  # lets you click "Run workflow" in the Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: write
